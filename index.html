@@ -15,13 +15,13 @@
   See the License for the specific language governing permissions and
   limitations under the License
 -->
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Material Design Lite</title>
+    <title>帝叁美食研究中心全球门户</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -44,9 +44,10 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-orange.min.css">
+    <link rel="stylesheet" href="https://fonts.loli.net/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.loli.net/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://lib.baomitu.com/material-design-lite/1.3.0/material.grey-orange.min.css">
+    <link crossorigin="anonymous" integrity="sha384-cefjCLbXG3M0NI8D/qdbCeACfPNZwNA7DGTuUE2QSQeL/itt9Q7Ik3VZdzkbO3J1" href="https://lib.baomitu.com/material-design-icons/3.0.1/iconfont/material-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <style>
     #view-source {
@@ -66,34 +67,32 @@
         <div class="demo-blog__posts mdl-grid">
           <div class="mdl-card coffee-pic mdl-cell mdl-cell--8-col">
             <div class="mdl-card__media mdl-color-text--grey-50">
-              <h3><a href="entry.html">Coffee Pic</a></h3>
+              <h3><a href="entry.html">汕头哪家咖啡店好喝？</a></h3>
             </div>
             <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
               <div class="minilogo"></div>
               <div>
-                <strong>The Newist</strong>
+                <strong>吴大佐</strong>
                 <span>2 days ago</span>
               </div>
             </div>
           </div>
           <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
-            <button class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">
-              <i class="material-icons mdl-color-text--white" role="presentation">add</i>
+            <button class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent" id="post_new_article" onclick="addButtonClick()">
+              <i class="material-icons mdl-color-text--white" role="presentation">add</i> <!--新增文章-->
               <span class="visuallyhidden">add</span>
             </button>
             <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
               <img src="images/logo.png">
-              +1,337
+              +114514
             </div>
             <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
               <div>
-                <strong>The Newist</strong>
+                <strong>帝叁全球美食研究中心</strong>
               </div>
               <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="menubtn">
-                <li class="mdl-menu__item">About</li>
-                <li class="mdl-menu__item">Message</li>
-                <li class="mdl-menu__item">Favorite</li>
-                <li class="mdl-menu__item">Search</li>
+                <li class="mdl-menu__item">关于</li>
+
               </ul>
               <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
                 <i class="material-icons" role="presentation">more_vert</i>
@@ -103,45 +102,45 @@
           </div>
           <div class="mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
             <div class="mdl-card__media mdl-color-text--grey-50">
-              <h3><a href="entry.html">On the road again</a></h3>
+              <h3><a href="entry.html">达濠半日游</a></h3>
             </div>
             <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
-              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+             Placeholder
             </div>
             <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
               <div class="minilogo"></div>
               <div>
-                <strong>The Newist</strong>
-                <span>2 days ago</span>
+                <strong>吴大佐</strong>
+                <span>Yesterday</span>
               </div>
             </div>
           </div>
           <div class="mdl-card amazing mdl-cell mdl-cell--12-col">
             <div class="mdl-card__title mdl-color-text--grey-50">
-              <h3 class="quote"><a href="entry.html">I couldn’t take any pictures but this was an amazing thing…</a></h3>
+              <h3 class="quote"><a href="entry.html">Placeholder</a></h3>
             </div>
             <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+               Placeholder
             </div>
             <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
               <div class="minilogo"></div>
               <div>
-                <strong>The Newist</strong>
+                <strong>吴大佐</strong>
                 <span>2 days ago</span>
               </div>
             </div>
           </div>
           <div class="mdl-card shopping mdl-cell mdl-cell--12-col">
             <div class="mdl-card__media mdl-color-text--grey-50">
-              <h3><a href="entry.html">Shopping</a></h3>
+              <h3><a href="entry.html">Placeholder</a></h3>
             </div>
             <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+             Placeholder
             </div>
             <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
               <div class="minilogo"></div>
               <div>
-                <strong>The Newist</strong>
+                <strong>吴大佐</strong>
                 <span>2 days ago</span>
               </div>
             </div>
@@ -149,7 +148,7 @@
           <nav class="demo-nav mdl-cell mdl-cell--12-col">
             <div class="section-spacer"></div>
             <a href="entry.html" class="demo-nav__button" title="show more">
-              More
+              更多
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
                 <i class="material-icons" role="presentation">arrow_forward</i>
               </button>
@@ -157,28 +156,29 @@
           </nav>
         </div>
         <footer class="mdl-mini-footer">
-          <div class="mdl-mini-footer--left-section">
-            <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
-              <span class="visuallyhidden">Twitter</span>
-            </button>
-            <button class="mdl-mini-footer--social-btn social-btn social-btn__blogger">
-              <span class="visuallyhidden">Facebook</span>
-            </button>
-            <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
-              <span class="visuallyhidden">Google Plus</span>
-            </button>
-          </div>
-          <div class="mdl-mini-footer--right-section">
-            <button class="mdl-mini-footer--social-btn social-btn__share">
-              <i class="material-icons" role="presentation">share</i>
-              <span class="visuallyhidden">share</span>
-            </button>
-          </div>
+<!--          <div class="mdl-mini-footer&#45;&#45;left-section">-->
+<!--            <button class="mdl-mini-footer&#45;&#45;social-btn social-btn social-btn__twitter">-->
+<!--              <span class="visuallyhidden">Twitter</span>-->
+<!--            </button>-->
+<!--            <button class="mdl-mini-footer&#45;&#45;social-btn social-btn social-btn__blogger">-->
+<!--              <span class="visuallyhidden">Facebook</span>-->
+<!--            </button>-->
+<!--            <button class="mdl-mini-footer&#45;&#45;social-btn social-btn social-btn__gplus">-->
+<!--              <span class="visuallyhidden">Google Plus</span>-->
+<!--            </button>-->
+<!--          </div>-->
+<!--          <div class="mdl-mini-footer&#45;&#45;right-section">-->
+<!--            <button class="mdl-mini-footer&#45;&#45;social-btn social-btn__share">-->
+<!--              <i class="material-icons" role="presentation">share</i>-->
+<!--              <span class="visuallyhidden">share</span>-->
+<!--            </button>-->
+<!--          </div>-->
+          <p>由 Github Pages 强力驱动。</p>
         </footer>
       </main>
       <div class="mdl-layout__obfuscator"></div>
     </div>
-    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/blog/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--white">View Source</a>
+<!--    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/blog/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-js-ripple-effect mdl-color&#45;&#45;accent mdl-color-text&#45;&#45;white">View Source</a>-->
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </body>
   <script>
@@ -195,5 +195,9 @@
         location.href = target;
       });
     });
+      var addButton = document.getElementById('post_new_article');
+      function addButtonClick() { //待实现增加文章逻辑
+        alert('添加文章功能正在开发中！');
+      }
   </script>
 </html>
